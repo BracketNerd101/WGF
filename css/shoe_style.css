@@ -1,0 +1,14 @@
+body {
+  scroll-behavior: smooth; }
+
+.section_spacer {
+  margin-bottom: 8rem; }
+
+.element_spacer {
+  margin-top: 4rem; }
+
+.shoe_mini {
+  background-size: cover;
+  width: 100%; }
+
+/*# sourceMappingURL=shoe_style.css.map */
