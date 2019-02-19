@@ -1,6 +1,6 @@
 body {
   scroll-behavior: smooth;
-  min-height: 400px; }
+  min-height: 4000px; }
 
 .background_header {
   background: #314755;
@@ -18,8 +18,20 @@ body {
 .swiss_grid_style_top {
   border-top: 1.2px solid #333333; }
 
+.parallax {
+  /* The image used */
+  background-image: url("../img/nike_air_green.png");
+  /* Set a specific height */
+  height: 30rem;
+  width: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
 .section_spacer {
-  margin-bottom: 8rem; }
+  margin-bottom: 4rem; }
 
 .element_spacer {
   margin-top: 4rem; }
