@@ -1,12 +1,18 @@
 body {
-  scroll-behavior: smooth; }
+  scroll-behavior: smooth;
+  min-height: 400px; }
 
 .background_header {
-  background-color: #000000;
+  background: #314755;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #26a0da, #314755);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #26a0da, #314755);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   height: 18rem; }
 
 .hero_text_color_style {
-  color: #BD3039;
+  color: #FFFFFF;
   font-family: 'Limelight', cursive; }
 
 .swiss_grid_style_top {
